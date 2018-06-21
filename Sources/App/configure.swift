@@ -15,5 +15,5 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     middlewares.use(ErrorMiddleware.self) // Catches errors and converts to HTTP response
     services.register(middlewares)
     
-    print(Environment.get("testkey")
+    print(Environment.get("testkey"))
 }
