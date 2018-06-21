@@ -1,6 +1,10 @@
+### Vapor ###
+Config/secrets
+
+### Vapor Patch ###
 Packages
-.build
+.build/
 xcuserdata
-*.xcodeproj
 DerivedData/
+*.xcodeproj
 .DS_Store
